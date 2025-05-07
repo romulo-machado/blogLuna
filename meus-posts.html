@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Posts - Blog da Luna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meus Posts ✨</h1>
+        <p>Aqui estão algumas experiências incríveis que quero compartilhar com vocês!</p>
+    </header>
+    <nav>
+        <a href="home.html">Início</a>
+        <a href="#">Sobre Mim</a>
+        <a href="meus-posts.html" class="active">Meus Posts</a>
+    </nav>
+    <main>
+        <section class="post">
+            <h2>🏖️ Viagem para Fortaleza</h2>
+            <div style="display: flex;">
+                <p>Esse foi o dia em que fui  pra cidade de Fortaleza. Foi muito legal, eu adorei. Vocês iam adorar se fossem lá, nessa hora eu estava indo para praia, eu estava indo de bug-hug  foi muiiiiiito legal!!!</p>
+                <img class="ftPost" class="fthome" onclick="alerta(this)" style="width: 250px; border-radius: 12px; margin-left: 5pt;" src="images/familiaFortaleza.jpeg" alt="">
+            </div>
+        </section>
+
+        <!-- <section class="post">
+            <h2>🍪 Minha Receita de Cookies</h2>
+            <p>Experimentei fazer cookies de chocolate com minha mãe e ficaram deliciosos. Coloquei pedacinhos de amor em cada um! 💕</p>
+        </section> -->
+
+        <!-- Você pode copiar este bloco <section> e colar mais vezes para criar novos posts -->
+
+        <div id="modal" onclick="fecharModal()">
+            <img id="imagemAmpliada">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog da Luna. Feito com amor! 🌟</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

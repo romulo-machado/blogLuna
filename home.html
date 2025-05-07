@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt -br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog da Luna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Blog da Luna!</h1>
+        <p>Um espaço para compartilhar histórias, sonhos e aventuras!</p>
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre Mim</a>
+        <a href="meus-posts.html">Meus Posts</a>
+    </nav>
+    <main>
+        <h2>Olá, sou a Luna!</h2>
+        <p>Este é o meu blog, onde eu compartilho tudo o que eu gosto: histórias incríveis, desenhos que eu fiz, receitas legais que experimentei e muito mais! Espero que você se divirta aqui tanto quanto eu me divirto criando essas coisas.</p>
+        <p>Não se esqueça de voltar sempre para conferir as novidades!</p>
+        <div style="text-align: center;">
+            <img class="fthome" onclick="alerta(this)" src="images/fotoHotelHome2.jpeg" alt="Imagem de exemplo" style=" width: 30%; border-radius: 8px;">
+            <img class="fthome" onclick="alerta(this)" src="images/fotoHome.jpeg" alt="Minha prima Maxini e eu ❤️" style="width: 47.5%; border-radius: 8px">
+        </div>
+    </main>
+
+    <div id="modal" onclick="fecharModal()">
+        <img id="imagemAmpliada">
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Blog da Luna. Feito com amor! 🌟</p>
+    </footer>
+
+    <script src="javascript.js">
+
+    </script>
+    
+</body>
+</html>
