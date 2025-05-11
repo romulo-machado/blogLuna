@@ -18,27 +18,29 @@
     </nav>
     <main>
         <section class="post">
-            <h2>💇🏼‍♀️ Meu novo visual</h2>
-            <div style="display: flex; margin-left: 5pt;">
-                <img class="ftPost" class="fthome" onclick="alerta(this)" style="width: 50%; height: 100%; border-radius: 12px; margin-left: 5pt;" src="images/corteDeCabelo.jpg" alt="">
-                <p>Esse foi o dia em que cortei o meu cabelo, e eu adorei o corte. Nessa hora eu tinha acabado de acordar e eu também tinha tirado meu dentinho que estava mole-mole que nem gelatina, aí minha tia veio na minha casa, foi legal, a gente fez biscoitinho de maizena.</p>
+            <h2 class="post-title">💇🏼‍♀️ Meu novo visual</h2>
+            <div class="post-content">
+                <img class="ftPost fthome" onclick="alerta(this)" src="images/corteDeCabelo.jpg" alt="Foto de novo visual">
+                <p>
+                    Esse foi o dia em que <strong>cortei o meu cabelo</strong>, e eu adorei o corte. Nessa hora eu tinha acabado de acordar 
+                    e eu também tinha tirado <strong>meu dentinho</strong> que estava mole-mole que nem gelatina, 
+                    aí minha tia veio na minha casa, foi legal, a gente fez <strong>biscoitinho de maizena</strong>.
+                </p>
             </div>
         </section>
-
+        
         <section class="post">
-            <h2>🏖️ Viagem para Fortaleza</h2>
-            <div style="display: flex;">
-                <p>Esse foi o dia em que fui  pra cidade de Fortaleza. Foi muito legal, eu adorei. Vocês iam adorar se fossem lá, nessa hora eu estava indo para praia, eu estava indo de bug-hug  foi muiiiiiito legal!!!</p>
-                <img class="ftPost" class="fthome" onclick="alerta(this)" style="width: 50%; height: 100%; border-radius: 12px; margin-left: 5pt;" src="images/familiaFortaleza.jpeg" alt="">
+            <h2 class="post-title">🏖️ Viagem para Fortaleza</h2>
+            <div class="post-content reverse">
+                <p>
+                    Esse foi o dia em que fui pra <strong>cidade de Fortaleza</strong>. Foi muito legal, eu adorei. 
+                    Vocês iam adorar se fossem lá, nessa hora eu estava <strong>indo para praia</strong>, 
+                    eu estava indo de bug-hug, foi muiiiiiito legal!!!
+                </p>
+                <img class="ftPost fthome" onclick="alerta(this)" src="images/familiaFortaleza.jpeg" alt="Foto em Fortaleza">
             </div>
         </section>
-
-        <!-- <section class="post"> 
-            <h2>🍪 Minha Receita de Cookies</h2>
-            <p>Experimentei fazer cookies de chocolate com minha mãe e ficaram deliciosos. Coloquei pedacinhos de amor em cada um! 💕</p>
-        </section> -->
-
-        <!-- Você pode copiar este bloco <section> e colar mais vezes para criar novos posts -->
+        
 
         <div id="modal" onclick="fecharModal()">
             <img id="imagemAmpliada">
